@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13fd8f55d57be544dbedca6747760519, type: 3}
+  m_Name: Enemy2
+  m_EditorClassIdentifier: 
+  leftHandWeapon: {fileID: 11400000, guid: 7436adca35b81b74aae1ab1a1c4594f0, type: 2}
+  rightHandWeapon: {fileID: 11400000, guid: 7436adca35b81b74aae1ab1a1c4594f0, type: 2}
+  helmet: {fileID: 11400000, guid: b4aea36949396034aa391df60e344afb, type: 2}
+  chestPlate: {fileID: 0}
+  arms: {fileID: 0}
+  trousers: {fileID: 0}
+  enemyHair: {fileID: 21300000, guid: 5ca35b1dcb3562541ab1b512c8f4ad70, type: 3}
+  enemyFace: {fileID: 21300000, guid: 1f39670d511fb4e489cd02144ebb6e6c, type: 3}
+  hairColour: {fileID: 11400000, guid: a3238a065702c0d4d95ce74b5382f2ab, type: 2}
+  moneyReward: 50

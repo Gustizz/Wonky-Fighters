@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78958234b77c1c7488c8210d065acdfa, type: 3}
+  m_Name: Studded Leggings
+  m_EditorClassIdentifier: 
+  armorHealth: 25
+  armorSprite: {fileID: 0}
+  secondarySprite: {fileID: 21300000, guid: f008394215009674fa26f0921038eab5, type: 3}
+  sprite3: {fileID: 21300000, guid: 17ae60f63d3e6c9449b0c0b092b69332, type: 3}
+  sprite4: {fileID: 21300000, guid: 62c7acf60f1b5ec4ea50bbf01a5e7cfa, type: 3}
+  armorType: 2
+  previewShopImage: {fileID: 21300000, guid: 471455f7eb3b06341b9c6ea4f8963180, type: 3}
+  hasBeenBought: 0
+  price: 15

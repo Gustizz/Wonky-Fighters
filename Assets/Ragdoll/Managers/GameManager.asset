@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2aafb5f1e05eae458618d7ff4f4cbf7, type: 3}
+  m_Name: GameManager
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 11400000, guid: 89366be7a6ae3e041ad670b07a25bc59, type: 2}
+  - {fileID: 11400000, guid: 31240763c3f7e734bb7d746088910d71, type: 2}
+  - {fileID: 11400000, guid: 4fb1561eb305a9f43a7731486de4d7d8, type: 2}
+  - {fileID: 11400000, guid: 118871b2c051be243996f5e0b7cb09d1, type: 2}
+  - {fileID: 11400000, guid: ae817302fd8733448919b0f02db04b02, type: 2}
+  fightNum: 2
+  numOfFights: 2

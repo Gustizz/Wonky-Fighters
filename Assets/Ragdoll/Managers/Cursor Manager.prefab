@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7243285660921271610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7243285660921271612}
+  - component: {fileID: 7243285660921271611}
+  m_Layer: 0
+  m_Name: Cursor Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7243285660921271612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7243285660921271610}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7243285660921271611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7243285660921271610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53de91bfe5e028b4f9b34dde9f51685e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultCursor:
+    cursorSprite: {fileID: 2800000, guid: d1893812363c6a642ba5d54dc3aa4c28, type: 3}
+    cursorHotspot: {x: 16, y: 16}
+  onHoverButton:
+    cursorSprite: {fileID: 2800000, guid: 1680359b8866ffc46b6de5d9f30f10a1, type: 3}
+    cursorHotspot: {x: 0, y: 0}
+  combatCursorLeft:
+    cursorSprite: {fileID: 2800000, guid: 2ac4774e06bdec14687d690e7c69060e, type: 3}
+    cursorHotspot: {x: 0, y: 0}
+  combatCursorRight:
+    cursorSprite: {fileID: 2800000, guid: 50f38e144fad0d849939df610ad18b95, type: 3}
+    cursorHotspot: {x: 32, y: 0}
+  combatCursorBoth:
+    cursorSprite: {fileID: 2800000, guid: 59f1f71f76280f748a5e64e0bb6ffe46, type: 3}
+    cursorHotspot: {x: 16, y: 16}
+  leftArmActive: 0
+  rightArmActive: 0
